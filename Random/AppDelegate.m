@@ -15,6 +15,12 @@
     // Insert code here to initialize your application
 }
 
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)app hasVisibleWindows:(BOOL)flag {
+    if (flag == NO)
+        [_window makeKeyAndOrderFront:self];
+    return YES;
+}
+
 - (IBAction)seed:(id)sender {
     srandom((unsigned)time(NULL));
 }
