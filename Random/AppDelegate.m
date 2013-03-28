@@ -29,4 +29,9 @@
     }
     [display setIntValue:n];
 }
+
+- (IBAction)showAbout:(id)sender {
+    NSDictionary *options = @{@"ApplicationName":@"Random.app", @"Version":@"1.0", @"ApplicationVersion":@"Random1.0"};
+}
+
 @end

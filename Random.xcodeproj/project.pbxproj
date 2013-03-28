@@ -10,13 +10,13 @@
 		2A4C30841703671F00E3EE99 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4C30831703671F00E3EE99 /* Cocoa.framework */; };
 		2A4C308E1703671F00E3EE99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A4C308C1703671F00E3EE99 /* InfoPlist.strings */; };
 		2A4C30901703671F00E3EE99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C308F1703671F00E3EE99 /* main.m */; };
-		2A4C30941703671F00E3EE99 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A4C30921703671F00E3EE99 /* Credits.rtf */; };
 		2A4C30971703671F00E3EE99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C30961703671F00E3EE99 /* AppDelegate.m */; };
 		2A4C309A1703671F00E3EE99 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4C30981703671F00E3EE99 /* MainMenu.xib */; };
 		2A4C30A21703671F00E3EE99 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4C30A11703671F00E3EE99 /* SenTestingKit.framework */; };
 		2A4C30A31703671F00E3EE99 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4C30831703671F00E3EE99 /* Cocoa.framework */; };
 		2A4C30AB1703671F00E3EE99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A4C30A91703671F00E3EE99 /* InfoPlist.strings */; };
 		2A4C30AE1703671F00E3EE99 /* RandomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C30AD1703671F00E3EE99 /* RandomTests.m */; };
+		2A71AB7917042F090075E8D0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A71AB7817042F090075E8D0 /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		2A4C308D1703671F00E3EE99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A4C308F1703671F00E3EE99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A4C30911703671F00E3EE99 /* Random-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Random-Prefix.pch"; sourceTree = "<group>"; };
-		2A4C30931703671F00E3EE99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A4C30951703671F00E3EE99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A4C30961703671F00E3EE99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2A4C30991703671F00E3EE99 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		2A4C30AA1703671F00E3EE99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A4C30AC1703671F00E3EE99 /* RandomTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomTests.h; sourceTree = "<group>"; };
 		2A4C30AD1703671F00E3EE99 /* RandomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomTests.m; sourceTree = "<group>"; };
+		2A71AB7817042F090075E8D0 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = ../../.Trash/Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 				2A4C308C1703671F00E3EE99 /* InfoPlist.strings */,
 				2A4C308F1703671F00E3EE99 /* main.m */,
 				2A4C30911703671F00E3EE99 /* Random-Prefix.pch */,
-				2A4C30921703671F00E3EE99 /* Credits.rtf */,
+				2A71AB7817042F090075E8D0 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -225,8 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A4C308E1703671F00E3EE99 /* InfoPlist.strings in Resources */,
-				2A4C30941703671F00E3EE99 /* Credits.rtf in Resources */,
 				2A4C309A1703671F00E3EE99 /* MainMenu.xib in Resources */,
+				2A71AB7917042F090075E8D0 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,14 +291,6 @@
 				2A4C308D1703671F00E3EE99 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2A4C30921703671F00E3EE99 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A4C30931703671F00E3EE99 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		2A4C30981703671F00E3EE99 /* MainMenu.xib */ = {
@@ -452,6 +444,7 @@
 				2A4C30B31703671F00E3EE99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A4C30B41703671F00E3EE99 /* Build configuration list for PBXNativeTarget "RandomTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +453,7 @@
 				2A4C30B61703671F00E3EE99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
