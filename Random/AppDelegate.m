@@ -15,4 +15,18 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)seed:(id)sender {
+    srandom((unsigned)time(NULL));
+}
+
+- (IBAction)generate:(id)sender {
+    int n;
+    if([maxValue integerValue]) {
+        n = (int)((random() % [maxValue integerValue]));
+    }
+    else {
+        n = (int)((random() % 100) + 1);
+    }
+    [display setIntValue:n];
+}
 @end
